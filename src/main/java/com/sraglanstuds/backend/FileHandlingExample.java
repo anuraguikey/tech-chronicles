@@ -31,19 +31,20 @@ public class FileHandlingExample {
             e.printStackTrace();
         }
     }
-}
 
-// Employee class implementing Serializable
-class Employee implements Serializable {
-    private static final long serialVersionUID = 1L; // Recommended for versioning
-    int id;
-    int salary;
-    String name;
+    // Employee class implementing Serializable
+    static class Employee implements Serializable {
+        private static final long serialVersionUID = 1L; // Recommended for versioning
+        int id;
+        int salary;
+        String name;
 
-    // Constructor
-    public Employee(int id, int salary, String name) {
-        this.id = id;
-        this.salary = salary;
-        this.name = name;
+        // Constructor
+        public Employee(int id, int salary, String name) {
+            this.id = id;
+            this.salary = salary;
+            this.name = name;
+        }
     }
 }
+

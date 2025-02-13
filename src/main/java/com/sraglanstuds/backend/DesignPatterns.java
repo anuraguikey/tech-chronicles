@@ -1,6 +1,6 @@
 package com.sraglanstuds.backend;
 
-public class day1 {
+public class DesignPatterns {
 
     public static void main(String[] args) {
        Student student = new Student(10,"Anurag",27);
